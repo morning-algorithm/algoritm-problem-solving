@@ -1,5 +1,5 @@
 n = int(input())
-num = num = [list(map(int, input().split())) for _ in range(n)]
+num = [list(map(int, input().split())) for _ in range(n)]
 
 result = 0
 start = last = n//2
