@@ -1,6 +1,6 @@
 binary search & greedy Algorithm
 
-* retry: 
+* retry: 2
 
 ### learned
 *    결정 알고리즘 => 이분검색 사용
