@@ -18,7 +18,11 @@ binary search & greedy Algorithm
 
          ``` from collections import deque
           a = deque(리스트)
-          a.popleft()```
+          a.popleft()
+* list.sort(key = lambda x : (x[1],x[0])) 
+     * 람다를 이용하여 여러 정렬기준 지정 가능
 * 역수열:
-         ``` for 뒤에있는 숫자부터:
-               insert(자기보다 큰 수의 개수) ```
+        ``` for 뒤에있는 숫자부터: 
+         insert(자기보다 큰 수의 개수) ```
+
+
