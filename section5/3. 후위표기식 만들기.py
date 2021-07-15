@@ -8,7 +8,7 @@ ans = ""
 '''
 for x in a:
     if x.isdecimal():
-        res+=x
+        ans+=x
     else:
         if x=='(':
             st.append(x)
