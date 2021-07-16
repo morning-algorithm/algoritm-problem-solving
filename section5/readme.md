@@ -8,6 +8,10 @@ data structure (stack, queue, hash, heap)
   - 구덩이
   - python list의 pop(), append()
 
+* Queue
+    - FIFO, 들어가는 순서대로 나온다
+    - append(), popleft() / appendleft(), pop()
+
 * 후위표기식: 컴퓨터에서 연산하는 방식,  **stack 필요**, 
     - 숫자면 출력
     - 연산자면? 스택 필요!
