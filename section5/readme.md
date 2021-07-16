@@ -45,3 +45,9 @@ data structure (stack, queue, hash, heap)
     - 앞에서부터 탐색을하다가 연산자를 만나면, 앞에 두개의 피연산자로 연산하여 결과물이나옴.
     - '-' 나 '/'는 앞 피연산자에서 뒤 피연산자를 뺀다
         - 왜? 5-3은 후위식으로 53-이다. 피연산자의 순서는 바뀌지 않는다는 것 명심하기!
+
+* enumerate
+    - 리스트가 있는 경우 순서와 리스트의 값을 전달하는 기능
+    - 순서가 있는 자료형(list, set, tuple, dictionary, string)을 입력으로 받아 인덱스 값을 포함하는 enumerate 객체를 리턴
+* any()
+    - any(cur[1] < x[1] for x in Q): for문 돌면서 단 한개라도 참인게 있으면 참이됨 !
