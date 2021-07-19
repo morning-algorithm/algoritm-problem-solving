@@ -1,6 +1,6 @@
 data structure (stack, queue, hash, heap)
 
-* retry: 1,2,3
+* retry: 1,2,3,**7**,9
 
 ## 🖋️ learned
 - stack
