@@ -51,3 +51,20 @@ data structure (stack, queue, hash, heap)
     - 순서가 있는 자료형(list, set, tuple, dictionary, string)을 입력으로 받아 인덱스 값을 포함하는 enumerate 객체를 리턴
 * any()
     - any(cur[1] < x[1] for x in Q): for문 돌면서 단 한개라도 참인게 있으면 참이됨 !
+
+* 이진트리
+<image src="https://user-images.githubusercontent.com/60434971/126342431-cb0914ad-961e-4414-8cb5-8282c60253f0.jpg" width="600"/>
+
+* 최소힙
+<image src="https://user-images.githubusercontent.com/60434971/126342778-d13ed277-467c-4fc7-a922-2579817475bb.jpg" width="500"/>
+
+  ``` 
+  import heapq as hq
+  hq.heappop(a)
+  hq.heappush(a,n)
+  hq.heapify(a) #리스트를 최소힙으로 만듦
+  ```
+
+* 최대힙
+  - 기존 python의 heapq에서 **insert시에 -n붙여서, pop할때는 -붙여서 출력**
+  - 최대값이 8이었다면 -8이됨. 따라서 -8이 최소값이 되므로 이 수가 힙의 루트노드가 됨.
