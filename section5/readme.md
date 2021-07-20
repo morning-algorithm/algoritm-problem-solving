@@ -56,7 +56,7 @@ data structure (stack, queue, hash, heap)
 <image src="https://user-images.githubusercontent.com/60434971/126342431-cb0914ad-961e-4414-8cb5-8282c60253f0.jpg" width="600"/>
 
 * 최소힙
-<image src="https://user-images.githubusercontent.com/60434971/126342778-d13ed277-467c-4fc7-a922-2579817475bb.jpg" width="600"/>
+<image src="https://user-images.githubusercontent.com/60434971/126342778-d13ed277-467c-4fc7-a922-2579817475bb.jpg" width="500"/>
 
   ``` 
   import heapq as hq
