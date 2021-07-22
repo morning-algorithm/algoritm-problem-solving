@@ -1,12 +1,8 @@
 section 5. data structure (stack, queue, hash, heap)
 
-!:6
-@:5
+**[스택]** - LIFO
 
-
-[스택] - LIFO
-
-[큐] - FIFO 파이썬 라이브러리 deque 활용
+**[큐]** - FIFO, 파이썬 라이브러리 deque 활용
 
 from collections import deque
 
