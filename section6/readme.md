@@ -1,7 +1,7 @@
 brute-force (back tracking, state-space tree & cut edge) - dfs basic
 
 ## Retry
-**7**,8
+3,**7**,8
 
 ## Learned
 
