@@ -18,6 +18,7 @@ dq.popleft() # 맨 뒤의 원소 제거
 
 
 * tuple
+list와 차이점->immutable함.
 a=list(range(11,20))
 t=[(position, value) for position, value in enumerate(a)]
 #[(0,11),(1,12), ... ,(7,18),(8,19)]
