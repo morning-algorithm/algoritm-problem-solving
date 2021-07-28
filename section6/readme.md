@@ -104,6 +104,7 @@ brute-force (back tracking, state-space tree & cut edge) - dfs basic
   dfs(v+1,sum) #안 더하거나 
   ```
   <br/><br/>
+  
 ### 전역변수와 지역변수
 * 함수외부에서 `cnt = 5` 
     * 전역 변수를 선언하고, 5를 할당하는 작업을 한다.
@@ -189,10 +190,9 @@ for i in range(1,n):
     b[i] = b[i-1] * (n-i) // i #1 3/1 3x2/2x1 3x2x1/3x2x1 앞에수에다가 계속 추가
 ```
 
-<br><br>
+<br>
 
-
-### !!조합!!
+### ✴️ 조합
 * (오름차순 기준) 뒤에 레벨에서 나오는 수는 앞 레벨에서 나오는 수보다 작다.
 * 상태트리 구성: `DFS(L, s)`: D(레벨, **가지를 뻗을때 갈 수 있는 제일 작은 숫자**)
 ```
@@ -203,3 +203,29 @@ for i in range(1,n):
     D(2,3)
 ```
 * DFS호출 시 중복체크 필요없음!!!!!!! 어처피 다음 레벨의 가지는 자기보다 큰 수부터 시작하니까
+
+<br><br>
+
+### ‼️ 그래프
+<image src="https://user-images.githubusercontent.com/60434971/127273145-699b94c4-e01b-4a2c-8e0e-b02d8abec651.png" width="500"/><br/>
+
+* 인접행렬 <br/>
+<image src="https://user-images.githubusercontent.com/60434971/127273222-9b6138d8-5886-4c95-afd1-7849ea8e5524.png" width="800"/><br/>
+
+* 경로탐색
+    * 한번 방문한 노드는 다시 방문하지 않도록 꼭 방문 체크 !!! 
+        ```
+        ch[j]= 1
+        dfs(j)
+        ch[j]= 0
+        ```
+        * back 할 때 꼭 체크 해제!
+
+    * 경로 까지 출력하려면
+       ```
+        path.append(j)
+        ch[j]= 1
+        dfs(j)
+        ch[j]= 0
+        path.pop()
+       ```
