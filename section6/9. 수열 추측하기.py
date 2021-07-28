@@ -95,3 +95,18 @@ ch = [0]*(n+1)
 for i in range(1,n):
     b[i] = b[i-1] * (n-i) // i #1 3/1 3x2/2x1 3x2x1/3x2x1 앞에수에다가 계속 추가
 dfs(0)
+
+
+#(6-12) answer2 - 라이브러리 사용
+'''
+#코테에서 라이브러리 쓰지 못하게 막을 수도 있고 복잡한 조건이 있을수도 있으니기본인 dfs로 구하는 방법을 잘 알아놓기! 
+
+import itertools as it #순열이나 조합 쉽게 구해주는 라이브러리
+
+a = [1,2,3,4]
+for tmp in it.permutations(a): #가능한 모든 순열(중복순열x)을 구해줌. it.permutations(a,3): a에서 3개뽑는 순열의 모든 경우
+    sum = 0
+    for L ,x in enumerate(tmp):
+        sum+=(x*b[L])
+'''
+
