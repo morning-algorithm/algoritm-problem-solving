@@ -27,3 +27,11 @@ dfs(L,s(가지 시작 인덱스), sum)
 sum값을 마지막에 한번에 계산하지않고 dfs할때마다 더했음!
 DFS(L+1, i+1 , sum+a[i])
 '''
+
+#(6-13) answer2 - 라이브러리 사용 
+'''
+import itertools as it
+for x in it.combinations(a,k): #a리스트에서 k개 뽑기
+    if sum(x)%m == 0:
+        cnt+=1
+'''
