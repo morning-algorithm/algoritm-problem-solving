@@ -1,6 +1,6 @@
 import sys
 #sys.stdin = open("input.txt", "r")
-#동전 구해주기
+
 def DFS(L):
     global a,res
     if L==n:
