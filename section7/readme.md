@@ -44,6 +44,16 @@
   dx = [-1, 0, 1, 0]
   dy = [0, 1, 0, -1]
   ```
+  ```
+  for i in range(4):
+        x = nowx + dx[i]
+        y = nowy + dy[i]
+
+        if 0<=x<=6 and 0<=y<=6 and a[x][y] == 0 and ch[x][y] == 0:
+              ch[x][y] = 1
+              dfs(x,y)
+              ch[x][y] = 0
+  ```
 * 상태트리로 나타내면 자식은 부모의 상하좌우.
 * dfs, bfs 모두 가능. 
   * 시작좌표에서 도착좌표까지 최단거리를 구할땐 bfs
