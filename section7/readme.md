@@ -38,7 +38,8 @@
 * bfs
   * 최단거리 문제
   * 호수에 물을 던졌을때 동심원이 계속 커지는 것과 같음
-<br>
+
+
 ### 격자판 탐색
 * 격자판은 시계방향으로 탐색
   ```
@@ -59,7 +60,8 @@
 * dfs, bfs 모두 가능. 
   * 시작좌표에서 도착좌표까지 최단거리를 구할땐 bfs
   * 시작좌표에서 도착좌표까지 모든 경로의 가지수를 구할땐 dfs. 이때 back과정에서 check를 풀어줘야함!
-<br>
+
+
 ### coloring a border
 <img src="https://user-images.githubusercontent.com/60434971/128637436-18e6cee5-805c-4824-8e0b-6fb06d0a4f36.png" width="300"/><br>
 * coloring a border, 단지찾기 같은 문제는 **DFS/BFS 둘 다 가능**
