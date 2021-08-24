@@ -66,3 +66,9 @@
 <img src="https://user-images.githubusercontent.com/60434971/128637436-18e6cee5-805c-4824-8e0b-6fb06d0a4f36.png" width="300"/><br>
 * coloring a border, 단지찾기 같은 문제는 **DFS/BFS 둘 다 가능**
     * 단, dfs의 경우 ch 해제를 안하면 된다  
+
+### 병합정렬 
+<img src="https://user-images.githubusercontent.com/60434971/130552580-e53a8d74-436d-41c7-a3d7-e17ce362d8d0.jpg" width="1000"/><br>
+
+### 퀵정렬
+<img src="https://user-images.githubusercontent.com/60434971/130552483-b206142c-78fd-4b98-b222-664e6e78875c.png" width="1000"/><br>
